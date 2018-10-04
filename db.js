@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import personController from './collections/Person/person.controller';
+import personController from './collections/person/person.controller';
 mongoose.connect('mongodb://root:qwerty123@ds123003.mlab.com:23003/heroku-connection-test');
 let db = mongoose.connection;
 db.on('error', (err)=>{
