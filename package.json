@@ -1,0 +1,33 @@
+{
+  "name": "heroku-mongodb-setup",
+  "version": "1.0.0",
+  "description": "This is reference code for how to set up and deploy a node-mongodb application with heroku and mLab",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node --inspect --presets env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umeshkulkarni25/heroku-mongodb-setup.git"
+  },
+  "keywords": [
+    "heroku",
+    "mlabs",
+    "node",
+    "javascript"
+  ],
+  "author": "umesh kulkarni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umeshkulkarni25/heroku-mongodb-setup/issues"
+  },
+  "homepage": "https://github.com/umeshkulkarni25/heroku-mongodb-setup#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
