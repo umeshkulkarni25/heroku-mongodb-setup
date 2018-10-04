@@ -2,7 +2,7 @@ import '@babel/polyfill'
 import express from 'express';
 import './db';
 import personController from './collections/person/person.controller';
-let port = process.env.PORT:3000;
+let port = process.env.PORT||3000;
 let app = express();
 
 app.get('/', async (req, res)=>{
