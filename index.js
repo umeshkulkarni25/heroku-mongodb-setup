@@ -1,9 +1,10 @@
+import '@babel/polyfill'
 import express from 'express';
 import './db';
 import personController from './collections/person/person.controller';
 let app = express();
 
-app.get('/getPeople', async (req, res)=>{
+app.get('/', async (req, res)=>{
   let people;
   try{
     people = await personController.getPersonList();
