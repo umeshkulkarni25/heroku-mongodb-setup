@@ -2,6 +2,7 @@ import '@babel/polyfill'
 import express from 'express';
 import './db';
 import personController from './collections/person/person.controller';
+let port = process.env.PORT:3000;
 let app = express();
 
 app.get('/', async (req, res)=>{
@@ -13,7 +14,7 @@ app.get('/', async (req, res)=>{
   }
   res.json(people);
 });
-app.listen(3000, (err) => {
+app.listen(port, (err) => {
   if(err){
     console.log(err);
     return;
