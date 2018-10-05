@@ -19,5 +19,5 @@ app.listen(port, (err) => {
     console.log(err);
     return;
   }
-  console.log('server started!!! checkout this url --> http://localhost:3000/names')
+  console.log('server started!!!')
 });
