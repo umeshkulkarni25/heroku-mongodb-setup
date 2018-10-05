@@ -1,9 +1,9 @@
 # heroku-mongodb-setup
 This repo contains a expresss server which is connected to a mLab hosted mongodb server.
 # To test mLab: 
-mLab db url: mongodb://@ds123003.mlab.com:23003/heroku-connection-test
-user: root
-Configure the DB in Robo 3T client to see the DB in a GUI.
+* mLab db url: mongodb://@ds123003.mlab.com:23003/heroku-connection-test
+* user: root
+* Configure the DB in Robo 3T client to see the DB in a GUI.
 
 # To test auto-deployment:
 * visit https://alive-autodeploy-prototype.herokuapp.com/ notice the names that are displayed.
